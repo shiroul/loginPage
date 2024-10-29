@@ -17,14 +17,37 @@
             <p>Don't have an account? <a href="">Sign up</a></p>
 
             <div class="login-using-google-or-facebook">
-                <div id="login-using-google">
-
+                <div id="login-using-google" >
+                    <a href="">
+                        <img src="./assets/google.png" alt="">
+                        <p>Log in using Google</p>
+                    </a>
                 </div>
                 <div id="login-using-facebook">
-
+                    <a href="">
+                        <img src="./assets/facebook.png" alt="">
+                        <p>Log in using Facebook</p>
+                    </a>
                 </div>
+            </div>
+
+            <div class="or">
+                <span>OR</span>
+            </div>
+
+            <div class="form-login">
+                <form action="">
+                    <input type="text" id="username" name="username" placeholder="Username">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <div id="forget-password">
+                        <a href="" style="font-size: 10px;">forget password</a>
+                    </div>
+                    <input type="submit" value="Submit" style="width: 100%; margin-top: 15px;">
+                </form>
             </div>
         </div>
     </div>
+
+    <script src="./logic.js"></script>
 </body>
 </html>
