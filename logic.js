@@ -1,9 +1,13 @@
-$(document).ready(function() {
-    $("#signup").click(function() {
-        $(".signup").css({"webkitTransform":"rotateY(0deg)",
-            "MozTransform":"rotateY(0deg)",
-            "msTransform":"rotateY(0deg)",
-            "OTransform":"rotateY(0deg)",
-            "transform":"rotateY(0deg)"});
-    });
+const fliper = document.getElementById('fliper');
+const toSignUp = document.getElementById('toSignUp');
+const toLogin = document.getElementById('toLogin');
+
+toSignUp.addEventListener('click', (e) => {
+    e.preventDefault();
+    fliper.classList.add('flipped');
+});
+
+toLogin.addEventListener('click', (e) => {
+    e.preventDefault();
+    fliper.classList.remove('flipped');
 });

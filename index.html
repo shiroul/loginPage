@@ -16,6 +16,7 @@
     <script src="./logic.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
     <div class="mainContainer">
         <div class="loginContainer">
             <div id="imageMail"></div>
@@ -47,9 +48,49 @@
                     <input type="password" id="password" name="password" placeholder="Password">
                     <div id="forget-password">
                         <a href="" style="font-size: 10px;">Forget password</a>
+=======
+    <div class="mainContainer" style="perspective: none;">
+        <div class="fliper" id="fliper">
+            <div class="loginContainer" id="loginContainer">
+                <div id="imageMail"></div>
+                <p>Log in</p>
+                <p>Don't have an account? <a href="#" id="toSignUp">Sign up</a></p>
+    
+                <div class="login-using-google-or-facebook">
+                    <div id="login-using-google" >
+                        <a href="">
+                            <img src="./assets/google.png" alt="">
+                            <p>Log in using Google</p>
+                        </a>
+>>>>>>> 37e4c878130f41f8df87c5c0790d1ee8cd5384c9
                     </div>
-                    <input type="submit" value="Submit" style="width: 100%; margin-top: 15px;">
-                </form>
+                    <div id="login-using-facebook">
+                        <a href="">
+                            <img src="./assets/facebook.png" alt="">
+                            <p>Log in using Facebook</p>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="or">
+                    <span>OR</span>
+                </div>
+    
+                <div class="form-login">
+                    <form action="">
+                        <input type="text" id="username" name="username" placeholder="Username">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <div id="forget-password">
+                            <a href="" style="font-size: 10px;">forget password</a>
+                        </div>
+                        <input type="submit" value="Submit" style="width: 100%; margin-top: 15px;">
+                    </form>
+                </div>
+            </div>
+    
+            <div class="signUpContainer" id="signUpContainer">
+                <p>Sign Up Form Placeholder</p>
+                <p>Already have an account? <a href="#" id="toLogin">Log in</a></p>
             </div>
         </div>
     </div>
